@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+.container .content {
+  text-align: center;
+}
+
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+  background: #eee;
+}
+
+.form-container form {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  text-align: center;
+  width: 500px;
+}
+
+.form-container form h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-container form input,
+.form-container form select {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 17px;
+  margin: 8px 0;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.form-container form select option {
+  background: #fff;
+}
+
+.form-container form .form-btn {
+  background: #fbd0d9;
+  color: crimson;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+  background: crimson;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.form-container form p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.form-container form p a {
+  color: crimson;
+}
+
+.form-container form .error-msg {
+  margin: 10px 0;
+  display: block;
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.user-profile {
+  position: absolute;
+  width: 350px;
+  height: 100vh;
+  margin: 0;
+  background-color: aqua;
+}
+
+.user-profile .avatar {
+  width: 70%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.user-profile .avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.user-profile .profile h2 {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #472183;
+}
+
+.nav {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+}
+
+.nav a{
+  display: inline;
+  padding: 20px;
+}
+
+.list{
+  position: absolute;
+  top: 100px; left: 400px;
+  width: calc(100% - 450px);
+  height: calc(100vh - 110px);
+  padding: 10%;
+}
+.list .file{
+  position: absolute;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload{
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
